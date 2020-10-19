@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-LABEL maintainer="Islasse Camille <jk@coloso.de>"
+LABEL maintainer="Islasse Camille <camille@kiboko.fr>"
 
 RUN addgroup -S kiboko \
     && adduser -S -G kiboko kiboko

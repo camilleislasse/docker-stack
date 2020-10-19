@@ -1,6 +1,6 @@
 FROM php:7.4-fpm-alpine
 
-LABEL maintainer="Islasse Camille <jk@coloso.de>"
+LABEL maintainer="Islasse Camille <camille@kiboko.fr>"
 
 RUN apk add --update \
     make \
