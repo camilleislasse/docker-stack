@@ -2,8 +2,8 @@ FROM alpine:3.12
 
 LABEL maintainer="Islasse Camille <camille@kiboko.fr>"
 
-RUN addgroup -S kiboko \
-    && adduser -S -G kiboko kiboko
+RUN addgroup -S www-data \
+    && adduser -S -G www-data www-data
 
 RUN apk add --update nginx
 RUN rm -rf /var/cache/apk/* && rm -rf /tmp/*
